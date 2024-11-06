@@ -67,3 +67,9 @@ function findCarById(id) {
 
 findCarById(33);
 // Console output is :- Car 33 is a 2011 Jeep Wrangler.
+
+function findLastCar() {
+    const lastCar = inventory[inventory.length - 1];
+    console.log(`Last car is a ${lastCar.car_make} ${lastCar.car_model}`);
+}
+findLastCar();
